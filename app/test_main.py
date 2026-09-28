@@ -22,7 +22,7 @@ def test_27_years() -> None:
 
 
 def test_28_years() -> None:
-    assert get_human_age(28, 28) == [3, 2] 
+    assert get_human_age(28, 28) == [3, 2]
 
 
 def test_100_years() -> None:
