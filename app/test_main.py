@@ -11,7 +11,7 @@ def test_24_years():
 def test_27_years():
     assert get_human_age(27, 27) == [2, 2]
 def test_28_years():
-    assert get_human_age(28, 28) == [2, 3] 
+    assert get_human_age(28, 28) == [3, 2] 
 def test_100_years():
-    assert get_human_age(28, 28) == [21, 17]                   
+    assert get_human_age(100, 100) == [21, 17]                   
 

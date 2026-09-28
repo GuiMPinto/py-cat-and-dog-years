@@ -3,20 +3,20 @@ def get_human_age(cat_age: int, dog_age: int) -> list:
     dog_human_age = 0
 
     if (cat_age > 0 and cat_age <= 15):
-        cat_human_age 
-    elif (cat_age >= 15 and  cat_age <= 23):
+        cat_human_age = cat_human_age
+    elif (cat_age >= 15 and cat_age <= 23):
         cat_human_age = 1
-    elif (cat_age > 23 and  cat_age <= 27):
+    elif (cat_age > 23 and cat_age <= 27):
         cat_human_age = 2
     elif (cat_age > 27):
         cat_human_age = 28 + (cat_age - 27) // 4
 
 
     if (dog_age > 0 and dog_age <= 15):
-        dog_human_age 
-    elif (dog_age >= 15 and  dog_age <= 23):
+        dog_human_age = dog_human_age
+    elif (dog_age >= 15 and dog_age <= 23):
         dog_human_age = 1
-    elif (dog_age > 23 and  dog_age <= 27):
+    elif (dog_age > 23 and dog_age <= 27):
         dog_human_age = 2
     elif (dog_age > 27):
         dog_human_age = 28 + (dog_age - 27) // 5
@@ -43,4 +43,4 @@ def get_human_age(cat_age: int, dog_age: int) -> list:
     """
     # TODO: Implement this function
     # Write your tests first, then implement the logic
-    return [cat_age, dog_age]
+    return [cat_human_age, dog_human_age]
