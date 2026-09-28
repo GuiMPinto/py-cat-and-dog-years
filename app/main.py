@@ -15,7 +15,7 @@ def get_human_age(cat_age: int, dog_age: int) -> list:
     """
     # TODO: Implement this function
     # Write your tests first, then implement the logic
-    if (cat_age <= 15):
+    if (cat_age < 15):
         cat_human_age = 0
     elif (cat_age >= 15 and cat_age <= 23):
         cat_human_age = 1
@@ -23,7 +23,7 @@ def get_human_age(cat_age: int, dog_age: int) -> list:
         cat_human_age = 2
     elif (cat_age > 27):
         cat_human_age = 2 + (cat_age - 24) // 4
-    if (dog_age <= 15):
+    if (dog_age < 15):
         dog_human_age = 0
     elif (dog_age >= 15 and dog_age <= 23):
         dog_human_age = 1
